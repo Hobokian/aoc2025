@@ -15,3 +15,8 @@ for battery_bank in input:
     NUMBER_2 = max(battery_bank_list_temp)
     print(NUMBER_2)
     # THEN - put (NOT ADD) them together in the original order found in the string
+    joltage_string = ""
+    for battery in battery_bank_list:
+        if battery == NUMBER_1:
+            joltage_string += str(NUMBER_1)
+        if battery == NUMBER_2
