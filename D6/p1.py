@@ -44,15 +44,3 @@ for i in range(list_of_list_length):
     #print(total)
     total_of_total += total
 print(total_of_total)
-
-
-
-# for item in grid:
-#     print(item)
-
-# for item in input.split('\n'):
-#     item = item.strip()
-#     print(item)
-#     exit(0)
-# grid = [line for line in input.split('\n')]
-# print(grid)
