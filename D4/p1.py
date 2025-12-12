@@ -39,22 +39,3 @@ for item in grid_temp:
         print(i, end="")
     print("")
 print(access_counter)
-
-# for item in input:
-#     print(item.strip())
-
-
-# for index,item in enumerate(input):
-#     #print(item)
-#     counter = 0
-#     for index2,item2 in enumerate(input):
-#         # Check if current iteration is a roll
-#         if item == '@':
-#             # Check all 8 surrounding tiles for other rolls - if less than 4, add 1 to counter
-#             print(index)
-#             print(input[index])
-#             try:
-#                 if input[index-1]:
-#                     counter +=1
-#             except:
-#                 continue
