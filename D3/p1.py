@@ -20,11 +20,8 @@ for battery_bank in input:
     second_number = -1
     for indextwo in range(first_number_index+1, len(battery_bank)):
         #print(battery_bank[indextwo])
-        try:
-            if str(second_number) < battery_bank[indextwo]:
-                second_number = battery_bank[indextwo]
-        except IndexError:
-            continue
+        if str(second_number) < battery_bank[indextwo]:
+            second_number = battery_bank[indextwo]
     print("Second number: " + second_number)
     print("Battery is: " + first_number + second_number)
     battery_number = str(first_number) + str(second_number)
